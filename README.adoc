@@ -1,0 +1,3 @@
+= OpenJDK 8u131 on Alpine with openssl lib
+
+Now we can wget a https url.
