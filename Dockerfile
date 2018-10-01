@@ -1,7 +1,10 @@
-FROM openjdk:8u131-jdk-alpine
+FROM openjdk:8-jdk-alpine3.8
 
-MAINTAINER ypzhuang <sunbei914914@msn.com>
+MAINTAINER ypzhuang <zhuangyinping@gmail.com>
 
-RUN apk update  && \
-    apk --no-cache add openssl 
+RUN  apk --no-cache add openssl && \
+     apk add --update tzdata && \
+     rm -rf /var/cache/apk/*      
+ENV TZ=Asia/Shanghai
+
 
