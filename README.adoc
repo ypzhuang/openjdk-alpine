@@ -4,3 +4,4 @@
 * Support Time Zone, default to Asia/Shanghai
 * Latest 8 jdk with Alpine 3.8
 * Tag:dockerize,  support dockerize
+* Tag:font, add dejavu font
